@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryChip from "./hocs/category-chip";
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 
 const categories = [
   {

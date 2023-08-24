@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Typography, Box, Paper, Fab, Chip } from "@mui/material";
-import { Add, Cancel, Close } from "@mui/icons-material";
+import { Add, Close } from "@mui/icons-material";
 
 export default function Item(props) {
   const {

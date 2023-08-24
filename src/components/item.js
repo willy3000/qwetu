@@ -12,12 +12,11 @@ export default function Item(props) {
     handleRemoveFromCart,
   } = props;
 
-
   const isInCategory =
     currentCategory === 0 || currentCategory === item.categoryid;
 
   if (!isInCategory) {
-    return null;
+    return;
   }
 
   return (

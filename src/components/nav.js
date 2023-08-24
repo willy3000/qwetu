@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Box, Button, AppBar, Toolbar } from "@mui/material";
+import { Box, AppBar, Toolbar } from "@mui/material";
 import Oops from "./oops";
 
 export default function Nav() {

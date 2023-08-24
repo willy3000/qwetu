@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Typography, Box, Paper, Fab, Chip } from "@mui/material";
 import { Add, Close } from "@mui/icons-material";
 
@@ -7,7 +7,6 @@ export default function Item(props) {
     item,
     currentCategory,
     handleAddToCart,
-    cart,
     inCart,
     handleRemoveFromCart,
   } = props;

@@ -5,7 +5,7 @@ import Items from "./components/items";
 import FloatingButton from "./components/floating-btn";
 import { Box } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import { green, purple } from "@mui/material/colors";
+import { green } from "@mui/material/colors";
 import { ThemeProvider } from "@mui/material/styles";
 import { db } from "./firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Badge, Fab, Slide } from "@mui/material";
+import { Box, Badge, Fab } from "@mui/material";
 import { ShoppingCart } from "@mui/icons-material";
 
 export default function FloatingButton(props) {
